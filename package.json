@@ -1,0 +1,14 @@
+{
+  "name": "gabaly-store",
+  "version": "1.0.0",
+  "description": "نظام إدارة محل الأحذية - الجبلي ستور",
+  "main": "backend/index.js",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "build": "npm --prefix backend install && npm --prefix frontend install && npm --prefix frontend run build",
+    "start": "node backend/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
